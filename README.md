@@ -16,6 +16,9 @@ I wanted to design this because I'm a big fan of the NBA, so I thought it would 
 design an app that has some practicality for someone like me, who wants to quickly search player statistics and compare
 players in the middle of a game.  
 
+
+
+
 ### User Stories: ##
 - As a user, I want to be able to find a player and look at his stats.
 - As a user, I want to be able to compare the stats of two players
