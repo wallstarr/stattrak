@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.ComparisonScreenController">
+   <Rectangle fill="WHITE" height="125.0" layoutX="2.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="120.0" />
+   <Rectangle fill="WHITE" height="125.0" layoutX="12.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0" />
+   <Rectangle fill="#282828" height="125.0" layoutX="22.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" AnchorPane.leftAnchor="500.0" AnchorPane.topAnchor="120.0" />
+   <ImageView fx:id="playerOneLogo" fitHeight="247.0" fitWidth="251.0" layoutX="120.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="76.0" />
+   <ImageView fx:id="playerTwoLogo" fitHeight="252.0" fitWidth="258.0" layoutX="809.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="76.0" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#222222" height="126.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1200.0" />
+   <ImageView fx:id="basketballImage" fitHeight="300.0" fitWidth="300.0" layoutX="450.0" layoutY="-44.0" pickOnBounds="true" preserveRatio="true" />
+   <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="VS" AnchorPane.leftAnchor="547.0" AnchorPane.topAnchor="150.0">
+      <font>
+         <Font name="Hiragino Sans W7" size="66.0" />
+      </font>
+   </Text>
+   <Rectangle fill="#f5f5f5" height="555.0" onMouseClicked="#onCompareClicked" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1200.0" AnchorPane.bottomAnchor="0.0" />
+    <Button fx:id="backToMenuButton" layoutX="8.0" layoutY="4.0" mnemonicParsing="false" onMouseClicked="#onBackToMenuButtonClicked" text="Back" textFill="#757575">
+        <font>
+            <Font name="Hiragino Sans W5" size="14.0" />
+        </font>
+    </Button>
+   <Text fx:id="p1lastname" layoutX="-199.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" wrappingWidth="688.0449028015137">
+      <font>
+         <Font name="Hiragino Sans W7" size="30.0" />
+      </font></Text>
+   <Text fx:id="p1firstname" layoutX="-200.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" wrappingWidth="688.0449028015137">
+      <font>
+         <Font name="Hiragino Sans W5" size="30.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2firstname" layoutX="705.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="488.3079643249512">
+      <font>
+         <Font name="Hiragino Sans W5" size="30.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2lastname" layoutX="705.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="384.8734944965663">
+      <font>
+         <Font name="Hiragino Sans W7" size="30.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1position" layoutX="26.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0">
+      <font>
+         <Font name="Hiragino Sans W0" size="96.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2position" layoutX="1100.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0">
+      <font>
+         <Font name="Hiragino Sans W0" size="96.0" />
+      </font>
+   </Text>
+   <TextField fx:id="playerOneNameSearchBar" layoutX="234.0" layoutY="29.0" prefHeight="69.0" prefWidth="268.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="22.0" />
+      </font></TextField>
+   <TextField fx:id="playerTwoNameSearchBar" layoutX="700.0" layoutY="29.0" prefHeight="69.0" prefWidth="268.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="22.0" />
+      </font>
+   </TextField>
+   <TextField fx:id="playerOneYearSearchBar" layoutX="91.0" layoutY="45.0" prefHeight="27.0" prefWidth="123.0">
+      <font>
+         <Font name="Hiragino Sans W7" size="29.0" />
+      </font>
+   </TextField>
+   <TextField fx:id="playerTwoYearSearchBar" layoutX="990.0" layoutY="45.0" prefHeight="27.0" prefWidth="123.0">
+      <font>
+         <Font name="Hiragino Sans W7" size="29.0" />
+      </font>
+   </TextField>
+   <Button mnemonicParsing="false" onMouseClicked="#onCompareClicked" text="Compare" textAlignment="CENTER" AnchorPane.leftAnchor="532.0" AnchorPane.topAnchor="46.0">
+      <font>
+         <Font name="Hiragino Sans W6" size="22.0" />
+      </font>
+   </Button>
+   <Text fx:id="p1year" layoutX="321.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0">
+      <font>
+         <Font name="Hiragino Sans W5" size="25.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2year" layoutX="704.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0">
+      <font>
+         <Font name="Hiragino Sans W5" size="25.0" />
+      </font>
+   </Text>
+   <Text fx:id="errorText" fill="#e10000" layoutX="48.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="429.5428867408532">
+      <font>
+         <Font name="Hiragino Sans W1" size="22.0" />
+      </font>
+   </Text>
+   <Text layoutX="544.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Points" textAlignment="CENTER">
+      <font>
+         <Font name="Hiragino Sans W7" size="32.0" />
+      </font>
+   </Text>
+   <Text layoutX="529.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minutes" textAlignment="CENTER">
+      <font>
+         <Font name="Hiragino Sans W7" size="32.0" />
+      </font>
+   </Text>
+   <Text layoutX="509.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rebounds" textAlignment="CENTER">
+      <font>
+         <Font name="Hiragino Sans W7" size="32.0" />
+      </font>
+   </Text>
+   <Text layoutX="535.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assists" textAlignment="CENTER">
+      <font>
+         <Font name="Hiragino Sans W7" size="32.0" />
+      </font>
+   </Text>
+   <Text layoutX="545.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Steals" textAlignment="CENTER">
+      <font>
+         <Font name="Hiragino Sans W7" size="32.0" />
+      </font>
+   </Text>
+   <Text layoutX="540.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blocks" textAlignment="CENTER">
+      <font>
+         <Font name="Hiragino Sans W7" size="32.0" />
+      </font>
+   </Text>
+   <Text layoutX="473.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="True Shooting" textAlignment="CENTER">
+      <font>
+         <Font name="Hiragino Sans W7" size="32.0" />
+      </font>
+   </Text>
+   <Text layoutX="507.0" layoutY="788.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Turnovers" textAlignment="CENTER">
+      <font>
+         <Font name="Hiragino Sans W7" size="32.0" />
+      </font>
+   </Text>
+   <Text layoutX="503.0" layoutY="638.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Field Goals" textAlignment="CENTER">
+      <font>
+         <Font name="Hiragino Sans W7" size="32.0" />
+      </font>
+   </Text>
+   <Text layoutX="507.0" layoutY="738.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 Pointers" textAlignment="CENTER">
+      <font>
+         <Font name="Hiragino Sans W7" size="32.0" />
+      </font>
+   </Text>
+   <Text layoutX="487.0" layoutY="688.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Free Throws" textAlignment="CENTER">
+      <font>
+         <Font name="Hiragino Sans W7" size="32.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1minutes" layoutX="205.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="215.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font></Text>
+   <Text fx:id="p2minutes" layoutX="927.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="215.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1points" layoutX="213.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="215.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2points" layoutX="931.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="215.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2rebounds" layoutX="932.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="225.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1rebounds" layoutX="215.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="225.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1assists" layoutX="223.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="225.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2assists" layoutX="932.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="225.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2blocks" layoutX="935.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="225.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1blocks" layoutX="223.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="225.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1steals" layoutX="225.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="225.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2steals" layoutX="935.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="225.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1trueshooting" layoutX="209.0" layoutY="587.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="208.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2trueshooting" layoutX="920.0" layoutY="587.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="208.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2fieldgoals" layoutX="851.0" layoutY="637.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="149.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1fieldgoals" layoutX="155.0" layoutY="637.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="149.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1freethrows" layoutX="155.0" layoutY="687.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="149.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2freethrows" layoutX="895.0" layoutY="687.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="149.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2threepointers" layoutX="854.0" layoutY="737.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="149.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1threepointers" layoutX="155.0" layoutY="737.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="149.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p1turnovers" layoutX="223.0" layoutY="787.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="225.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+   <Text fx:id="p2turnovers" layoutX="932.0" layoutY="787.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="225.0">
+      <font>
+         <Font name="Hiragino Sans W2" size="27.0" />
+      </font>
+   </Text>
+</AnchorPane>
