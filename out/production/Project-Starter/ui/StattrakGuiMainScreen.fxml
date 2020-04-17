@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MainScreenController">
+   <children>
+      <ImageView fx:id="bgImage2" fitHeight="800.0" fitWidth="1201.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bgImage" fitHeight="798.0" fitWidth="1201.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="stattrakImage" fitHeight="473.0" fitWidth="870.0" layoutX="167.0" layoutY="60.0" AnchorPane.leftAnchor="167.0" />
+      <Button fx:id="buttonSearchTool" layoutX="397.0" layoutY="448.0" mnemonicParsing="false" onMouseClicked="#onSearchToolClicked" onMouseEntered="#onSearchToolEntered" prefHeight="82.0" prefWidth="398.0" text="Search for Player Statistics">
+         <font>
+            <Font name="Hiragino Sans W2" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonCompareTool" layoutX="397.0" layoutY="547.0" mnemonicParsing="false" onMouseClicked="#onCompareToolClicked" onMouseEntered="#onCompareToolEntered" prefHeight="82.0" prefWidth="398.0" text="Player Comparison Tool">
+         <font>
+            <Font name="Hiragino Sans W2" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSimulateTool" layoutX="397.0" layoutY="647.0" mnemonicParsing="false" onMouseClicked="#onSimulateToolClicked" onMouseEntered="#onSimulateToolEntered" prefHeight="82.0" prefWidth="398.0" text="5V5 Simulation Tool">
+         <font>
+            <Font name="Hiragino Sans W2" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
