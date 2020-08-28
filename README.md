@@ -38,18 +38,7 @@ on the team of the player.
 favorited players tab.
 - You can reload the state of my application by clicking the load players button. 
 
-### **Phase 4: Task 2**
-
-Option chosen: "Test and design a class that is robust.  You must have at least one method that throws a checked 
-exception.  You must have one test for the case where the exception is expected and another where the exception is not
-expected."
-
-The class that is robust is the FavoritedPlayers class. 
-
-The method involved is the addPlayer() method, which throws a PlayerAlreadyFavoritedException when a player
-has already been favorited and is trying to be added. 
-
-### **Phase 4: Task 3**
+### **Problems that I solved**
 
 - The first problem I solved was in my SearchScreenController class. Before the changes, the "Favorite Players" tab
 was implemented in the class. I thought that the SearchScreenController class should not be the class implementing 
