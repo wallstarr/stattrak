@@ -1,4 +1,4 @@
-# NBA Player Statistics Application
+# NBA Player Statistics Application (Java 8)
 
 ## A handy application for NBA fans that want to know how a player is performing!
 
