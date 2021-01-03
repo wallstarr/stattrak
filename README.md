@@ -1,6 +1,6 @@
 # NBA Player Statistics Application (Java 8)
 
-## A handy application for NBA fans that want to know how a player is performing!
+## A handy desktop application for NBA fans that want to know how a player is performing!
 
 Credit for the NBA data goes to Danny Park, creator of the balldontlie API. 
 
