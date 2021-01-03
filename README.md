@@ -21,6 +21,8 @@ players in the middle of a game.
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/51876078/103483339-ef478700-4e29-11eb-8d84-111d63026fdf.gif)
 ## Search Feature 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/51876078/103485391-4012ac00-4e39-11eb-96cd-d821a365279b.gif)
+## Comparison Feature
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/51876078/103485769-1d35c700-4e3c-11eb-967f-43d670ad0423.gif)
 
 
 
