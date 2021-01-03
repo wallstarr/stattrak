@@ -18,7 +18,8 @@ players in the middle of a game.
 
 # Demo 
 ## Home Screen/Main Menu
-https://user-images.githubusercontent.com/51876078/103483228-22d5e180-4e29-11eb-8000-572ad7e44fd9.mov
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/51876078/103483339-ef478700-4e29-11eb-8d84-111d63026fdf.gif)
+
 
 
 
