@@ -16,7 +16,7 @@ I wanted to design this because I'm a big fan of the NBA, so I thought it would 
 design an app that has some practicality for someone like me, who wants to quickly search player statistics and compare
 players in the middle of a game.  
 
-# Demo 
+# Demo Gifs
 ## Home Screen/Main Menu
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/51876078/103483339-ef478700-4e29-11eb-8d84-111d63026fdf.gif)
 ## Search Feature 
